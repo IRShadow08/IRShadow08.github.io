@@ -9,7 +9,8 @@ window.onload = function()
     }, 1000);
 };
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () 
+{
     var aboutSection = document.querySelector('.about');
     
     var observer = new IntersectionObserver(function (entries, observer) {
@@ -24,7 +25,8 @@ document.addEventListener('DOMContentLoaded', function () {
     observer.observe(aboutSection);
   });
 
-function copyToClipboard() {
+function copyToClipboard() 
+{
     var textToCopy = document.getElementById("discordId").textContent;
     var textarea = document.createElement("textarea");
     textarea.value = textToCopy;
