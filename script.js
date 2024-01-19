@@ -8,3 +8,4 @@ window.onload = function()
         loadingElement.style.display = "none";
     }, 1000);
 };
+
